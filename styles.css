@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-medio {
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+}
+
+.check-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+button {
+  margin-top: 17px;
+  padding: 9px 35px;
+}
+
+/**----------*/
+
+.radio label {
+  display: inline;
+}
